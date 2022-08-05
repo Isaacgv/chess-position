@@ -87,8 +87,8 @@ def predict_fen(image):
                     fen_code += label
         if count != 0:
             fen_code += str(count)
-        else:
-            fen_code += label
+        #else:
+        #    fen_code += label
 
         fen_code += '-'
     print("Predict FEN: {}".format(fen_code[:-1]))
